@@ -1,8 +1,8 @@
 {
-  "homepage": "htpps://RadhaMaredi.github.io/Radha_Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://RadhaMaredi.github.io/myApp",
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
@@ -24,9 +25,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -9,7 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import mSignals from "../../Assets/mSignals.PNG"
-import df from "../../Assets/df.PNG"
+import dfExpenses from "../../Assets/dfExpenses.PNG"
 
 function Projects() {
   return (
@@ -25,12 +25,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={df}
+              imgPath={dfExpenses}
               isBlog={false}
               title="DF-Expense Management"
               description="DF-Expense is web-based application. The intent is for these employees to use this web-based product for filing their employee expenses, and also manage their employee profile. This product will become a one-stop solution for easy and faster approval of employee expenses.This product shouldalso be user-friendly, quick to learn and reliable for the above purpose."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://expenses.dfoundry.ai/login"
             />
           </Col>
 
